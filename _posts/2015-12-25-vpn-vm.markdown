@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Creating a Virtual Machine with OpenVPN"
+date:   2015-12-23 02:33:48 -0800
+categories: vpn vm
+---
+# Creating a Virtual Machine with OpenVPN
+
+## Download
+1. [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+2. [Virtual Box Extension Pack](https://www.virtualbox.org/wiki/Downloads)
+3. [Download Xubutu 14.04](http://xubuntu.org/getxubuntu/#lts)</br>
+any linux distribution will work, but I'm choosing Xubuntu for this guide because...
+   - easier to setup for beginners
+   - lighter weight than other Ubuntu distributions
+
+## Install
+1.	Install VirtualBox.
+2.	Install VirtualBox Extension Pack.
+3.	Open VirtualBox -> New
+4.	Enter in a name. I called it `VPN Ubuntu 14.04 64-bit`
+5.	Type: `Linux`, Version: `Ubuntu (64-bit)`
+6.	I chose `1024MB` memory and `8GB hard disk`.
+7.	Select `Create a virtual hard disk now`, and then click `Create`
+8.	Select `VDI` and then click `Continue`.
+9.	Select `Dynamically allocated` and then click `Continue`.
+10.	Click `Create` again.
+11.	Select `VPN Ubuntu 14.04 64-bit` on the list and then click on `Settings`
+
+  Display settings:
+  ![display-setting](/asset/vm-settings1.png)
+
+  Shared Folder settings:
+  ![display-setting](/asset/vm-settings2.png)
+
+12.	Now click the `Start` (green arrow)
+13.	Click folder icon and select the linux .iso you downloaded
+14.	Install the linux distro of your choice.
+  - Plenty of guides online if you need help.
+15.	Once the operating system is finished installing. Reboot.
+16.	Then follow this [guide](https://www.privateinternetaccess.com/forum/discussion/18003/openvpn-step-by-step-setups-for-various-debian-based-linux-oss-with-videos-ubuntu-mint-debian) to setup OpenVPN on linux.
