@@ -9,8 +9,9 @@ categories: vpn vm
 ## Download
 1. [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 2. [Virtual Box Extension Pack](https://www.virtualbox.org/wiki/Downloads)
-3. [Download Xubutu 14.04](http://xubuntu.org/getxubuntu/#lts)</br>
-any linux distribution will work, but I'm choosing Xubuntu for this guide because...
+3. [Download Xubutu 14.04](http://xubuntu.org/getxubuntu/#lts)
+
+  any linux distribution will work, but I'm choosing Xubuntu for this guide because...
    - easier to setup for beginners
    - lighter weight than other Ubuntu distributions
 
