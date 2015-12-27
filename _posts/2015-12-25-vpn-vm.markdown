@@ -12,7 +12,7 @@ categories: vpn vm
 3. [Download Xubutu 14.04](http://xubuntu.org/getxubuntu/#lts)
 
   any linux distribution will work, but I'm choosing Xubuntu for this guide because...
-  
+
   - easier to setup for beginners
   - lighter weight than other Ubuntu distributions
 
